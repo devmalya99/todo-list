@@ -1,0 +1,60 @@
+/* Set the background color of the body to a dark bluish tint. */
+
+body 
+{
+    background-color: #1a1f2b;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ffffff; /* White border */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2); /* Shadow effect */
+    color: #6b5b95; /* Dark blue-purple text color */
+}
+
+/* Style the button with the "Add" class (used in your HTML button): */
+
+#add-button {
+    background-color: #FF69B4;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#task
+{
+    font-size: 15px; 
+    height: 20px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #ffffff; /* White background */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+li button {
+    background-color: #ff6b6b; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    padding: 3px 5px;
+    cursor: pointer;
+}
